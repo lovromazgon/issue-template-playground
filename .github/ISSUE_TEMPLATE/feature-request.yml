@@ -18,7 +18,7 @@ body:
 - type: textarea
   attributes:
     label: Alternatives
-    description: A clear and concise description of any alternative solutions or features you've considered.
+    description: Alternative solutions or features you've considered.
   validations:
     required: false
 - type: textarea
