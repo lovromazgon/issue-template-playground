@@ -12,16 +12,10 @@ body:
       required: true
 - type: textarea
   attributes:
-    label: Current Behavior
-    description: A concise description of what you're experiencing.
+    label: Bug descriptoin
+    description: A concise description of what you're experiencing and what you expected to happen instead.
   validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Expected Behavior
-    description: A concise description of what you expected to happen.
-  validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
     label: Steps To Reproduce
