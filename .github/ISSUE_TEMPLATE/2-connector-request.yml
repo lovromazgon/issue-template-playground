@@ -1,4 +1,4 @@
-name: ↔️  Connector Request
+name: ↔️ Connector Request
 description: Request a new connector.
 title: <resource> [Source/Destination]
 labels: [connector, triage]
