@@ -6,3 +6,6 @@ contact_links:
   - name: 📄 Documentation Issue
     url: https://github.com/ConduitIO/docs.conduit.io
     about: Please report issues regarding documentation here.
+  - name: 👍/👎 Feedback
+    url: mailto:support@meroxa.io
+    about: Let us know what you think about Conduit.
