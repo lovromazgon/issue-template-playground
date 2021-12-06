@@ -14,14 +14,14 @@ body:
   attributes:
     label: Resource name
     description: Name of the resource this connector would read data from/to.
-    placeholder: Elasticsearch
+    placeholder: PostgreSQL
   validations:
     required: true
 - type: input
   attributes:
     label: Resource link
-    description: Link to the official page of the resource (source code repository if it's open source).
-    placeholder: https://github.com/elastic/elasticsearch
+    description: Link to the official page of the resource.
+    placeholder: https://www.postgresql.org/
   validations:
     required: true
 - type: dropdown
@@ -36,7 +36,7 @@ body:
   attributes:
     label: Expected connector behavior
     description: A clear and concise description of how you expect this connector to work.
-    placeholder: Each time a document is created on Elasticsearch a new record should be pushed into the pipeline [...]
+    placeholder: The connector should take a list of tables and detect inserts, updates and deletes [...]
   validations:
     required: false
 - type: textarea
