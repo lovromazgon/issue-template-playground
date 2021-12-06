@@ -27,8 +27,10 @@ body:
   attributes:
     label: Connector type
     options:
-      - source
-      - destination
+      - Source
+      - Destination
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Expected connector behavior
