@@ -12,7 +12,7 @@ body:
       required: true
 - type: textarea
   attributes:
-    label: Bug descriptoin
+    label: Bug description
     description: A concise description of what you're experiencing and what you expected to happen instead.
   validations:
     required: true
