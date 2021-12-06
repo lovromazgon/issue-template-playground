@@ -1,5 +1,6 @@
 name: ↔️ Connector Request
 description: Request a new connector.
+title: <resource> [Source/Destination]
 labels: [connector, triage]
 body:
 - type: checkboxes
@@ -19,7 +20,7 @@ body:
 - type: input
   attributes:
     label: Resource link
-    description: Link to the official page of this resource (source code repository if it's open source).
+    description: Link to the official page of the resource (source code repository if it's open source).
     placeholder: https://github.com/elastic/elasticsearch
   validations:
     required: true
