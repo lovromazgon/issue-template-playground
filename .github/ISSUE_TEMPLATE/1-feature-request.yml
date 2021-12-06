@@ -17,8 +17,8 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Alternatives
-    description: Alternative solutions or features you've considered.
+    label: Why is it useful?
+    description: Please describe the value this feature brings.
   validations:
     required: false
 - type: textarea
