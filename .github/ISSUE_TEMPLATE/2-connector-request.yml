@@ -5,8 +5,8 @@ labels: [connector, triage]
 body:
 - type: checkboxes
   attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the feature you want to request.
+    label: Is there an open request for this connector?
+    description: Please search to see if an issue already exists for the connector you want to request.
     options:
     - label: I have searched the existing issues
       required: true
