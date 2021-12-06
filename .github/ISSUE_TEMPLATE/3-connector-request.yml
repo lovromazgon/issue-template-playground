@@ -1,6 +1,6 @@
 name: 🔁 Connector Request
 description: Request a new connector.
-title: <resource> [Source/Destination]
+title: "Connector: <resource> [Source/Destination]"
 labels: [connector, triage]
 body:
 - type: checkboxes
