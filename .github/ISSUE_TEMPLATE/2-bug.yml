@@ -3,14 +3,6 @@ description: Report a bug.
 title: "Bug: <title>"
 labels: [bug, triage]
 body:
-- type: markdown
-  attributes:
-    value: '# Is there an existing issue for this?'
-- type: markdown
-  attributes:
-    value: |
-      Please search to see if an issue already exists for the bug you encountered.
-      - [ ] I have searched the existing issues
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
@@ -37,9 +29,9 @@ body:
     required: false
 - type: input
   attributes:
-    label: Version
-    description: The version of Conduit (get it with `conduit --version`).
-    placeholder: v0.1.0
+    label: Conduit info
+    description: Conduit version / OS / Arch (tip: `conduit --version` or HTTP API `GET /info`).
+    placeholder: v0.1.0 darwin/amd64
   validations:
     required: false
 - type: textarea
