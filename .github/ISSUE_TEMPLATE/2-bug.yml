@@ -3,6 +3,12 @@ description: Report a bug.
 title: "Bug: <title>"
 labels: [bug, triage]
 body:
+- type: markdown
+  value: '## Is there an existing issue for this?'
+- type: markdown
+  value: |
+    Please search to see if an issue already exists for the bug you encountered.
+    - [] I have searched the existing issues
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
