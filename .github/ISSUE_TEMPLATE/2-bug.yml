@@ -5,7 +5,7 @@ labels: [bug, triage]
 body:
 - type: markdown
   attributes:
-    value: '### Is there an existing issue for this?'
+    value: '# Is there an existing issue for this?'
 - type: markdown
   attributes:
     value: |
