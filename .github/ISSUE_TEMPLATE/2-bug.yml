@@ -30,7 +30,7 @@ body:
 - type: input
   attributes:
     label: Conduit info
-    description: "Conduit version / OS / Arch (tip: `conduit --version` or HTTP API `GET /info`)."
+    description: "Conduit version and OS/Arch (hint: get it with `conduit --version` or through the HTTP API `GET /info`)."
     placeholder: v0.1.0 darwin/amd64
   validations:
     required: false
