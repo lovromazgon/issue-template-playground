@@ -31,7 +31,7 @@ body:
     description: A clear and concise description of how you expect this connector to work.
     placeholder: The connector should take a list of tables and detect inserts, updates and deletes [...]
   validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
     label: Anything else?
